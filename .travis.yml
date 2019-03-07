@@ -3,8 +3,10 @@ dist: trusty
 solution: NK2Tray.sln
 deploy:
   provider: releases
-  api_key: "614b065ebe20dc42cfcdb744dada98087c091250"
+  api_key:
+    secure: bb1970a002e19932beb22d4067aba9098fb5b7f3
   file: "/home/travis/build/drlocke/NK2Tray/NK2Tray/bin/Release/NK2Tray.exe"
   skip_cleanup: true
+  overwrite: true
   on:
     tags: false
