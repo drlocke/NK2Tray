@@ -5,7 +5,7 @@ deploy:
   provider: releases
   api_key:
     secure: Pxi4RfeGvn57R7kN6183uroo4Pny8yTJ0DlX+HtZSVKA6Ylki+u6T1R9hrYKM6blROTz8M68MX3sVYr66ZIOIhTD7yGBpUmmVsEysvaJt/CuAOxmyKk0aoxwO9oBb154WJuK88mv0BujssnPic+WqqE6Sacna1MswE9IJUX0tQpaD5aEPTgV5Xkw2dV/rD6kINjuFs7wKh6sNCMQpmrlYSWbfZXsBEovLDTOQFJFdVPMHQFaRQH489oDya7PUVFi9eewer97agvODPydNbsTuARSUiyOnk5+qO3QE59R+r8E+jdRqegzLhybm9ZrQ0khrzG/naYJOGmI+FSa/P01mJACq0PRvN+tug63ZAK9gKDfaIDQRwW/mzHYNteKw3xoGBNskzROqL+WYdZEsuoyX6ZXqgujauBX2Bm5OmeVW5o+tdosJxkurBFHUybF1GMBI1n1TcDKY/LWbqvrQE2+ueUGgxQguDQlxxTjveQYc4no8lfW623xwTwMl/w0YdPiAaj8S1F6gISkCsDKwbyAqRalAhuJzgPALdaz0987XUv6Ueqe8uyAPR3HmgwrkmhbMbvh6mQGlQIKEeJxuvvyleji3RjoEq/sRbsDRJoCNgzpabOlONdu/O0iemsQsodr3b/YI+dz3gvpjPkHUvjCujR6PV8Iwibp+tfSz8yUjKQ=
-  file: "/home/travis/build/drlocke/NK2Tray/Release/NK2Tray.exe"
+  file: "/home/travis/build/drlocke/NK2Tray/NK2Tray/bin/Release/NK2Tray.exe"
   skip_cleanup: true
   overwrite: true
   on:
