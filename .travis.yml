@@ -3,7 +3,8 @@ dist: trusty
 solution: NK2Tray.sln
 deploy:
   provider: releases
-  api_key: $GITHUB_TOKEN
+  api_key:
+    secure: ACdAnHLN9pp1e1+nfh0+UDBl9y+ahUI5vuZG8mz66eNhdcU7ci2cnx0yl7ogZO1rrrnS9CfGx1BGzGQYsXE+OyqnMlaRDS/Rmqm3mssD3++p8T60zxIPfb515TnYzXfR7mCt5QSWEResfV9x+XPei9cGqR6pkql7kpgZNbSJrqD6PZfxmPITBgiEmXOtoOy3WsrV/s2sEuvZg5Oal0GBltbL2KCaaoeaNs1uvw2s7HR5g44WS5tEpjfPouzKR4JiN2zqujU/hmE0X/EmjUrDJLeE4ptYySpETPeYjmhGzyGS0bv5K/OuB3b5zrOnJ7vnoji6EQLEPbNvpHvy2fy4mADObN5EZGK4ZfcUS4A3t08UDadkiaP8CWhQq7aFfo8FEOzqq9jPH6S/ZqU5OjbxgfnxZc4XBs9gy7rksX6IhmKIr5REJ9Y6byXlWXsjZ9qnIvPOlS47OQDywbhn1QEyD7vQybWo0gIXIPsVTsprtXLu+7EDgcpHActNJoWdgNHrRmzOY8pH9PZFCTg8HlMv5EEKK/8xMeJT47gT1mxCUd4ceQWetAvht40pzRwft9bjx2EjbZqORZptKMB7w/sxzD4t6OJ9rEIPTxaZqGbwvfa5R//xuD6eyslDtrlHi9k0CfclrHAMlBzsW7ymZD1dXQioymv/sq0llSXMe0YhIjs=
   file: "/home/travis/build/drlocke/NK2Tray/NK2Tray/bin/Release/NK2Tray.exe"
   skip_cleanup: true
   overwrite: true
