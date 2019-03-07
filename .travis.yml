@@ -1,7 +1,3 @@
 language: csharp
-mono: none
+dist: trusty
 solution: NK2Tray.sln
-before_install:
-  - sudo apt-get update
-before_script:
-  - nuget restore NK2Tray.sln
