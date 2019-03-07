@@ -7,4 +7,4 @@ deploy:
   file: "/home/travis/build/drlocke/NK2Tray/NK2Tray/bin/Release/NK2Tray.exe"
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
