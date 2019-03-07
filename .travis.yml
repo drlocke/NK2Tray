@@ -1,3 +1,10 @@
 language: csharp
 dist: trusty
 solution: NK2Tray.sln
+deploy:
+  provider: releases
+  api_key: "22f8803528d0ab929958e22714c3f651881d5384"
+  file: "/home/travis/build/drlocke/NK2Tray/NK2Tray/bin/Release/NK2Tray.exe"
+  skip_cleanup: true
+  on:
+    tags: true
