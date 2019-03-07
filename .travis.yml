@@ -1,5 +1,6 @@
 language: csharp
 dist: trusty
+mono: none
 solution: NK2Tray.sln
 deploy:
   provider: releases
