@@ -1,2 +1,7 @@
 language: csharp
+mono: none
 solution: NK2Tray.sln
+before_install:
+  - sudo apt-get update
+before_script:
+  - nuget restore NK2Tray.sln
